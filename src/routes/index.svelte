@@ -1,13 +1,6 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
-	const list = [
-		'หมวยตามสั่ง',
-		'ฟู๊ดคอร์ดเดอะสตรีท',
-		'บะหมี่เป็ดหน้ามัสยิด',
-		'ก๋วยเตี๋ยวพันลี้',
-		'โจนส์สลัด',
-		'ไม่รู้ดิ สุ่มใหม่ละกัล'
-	];
+	import { list } from '$lib/list-larn-pai-daek'
 	let result = 'สุ่มดิจ๊ะ รอไร';
 	onMount(() => {
 		document.addEventListener('keydown', (e) => {
@@ -52,6 +45,6 @@
 		}
 	}
 	.bounce {
-		animation: bounce-once 0.2s;
+		animation: bounce-once 0.4s;
 	}
 </style>
