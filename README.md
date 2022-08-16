@@ -1,7 +1,7 @@
 # แดกอะไรD
 ไม่รู้ก็แค่สุ่มดิ
 
-template (heavy) inspriration from [deploydeemai.today](https://deploydeemai.today/)
+template (bootstrap) inspriration from [deploydeemai.today](https://deploydeemai.today/)
 
 ## install
 `pnpm i`
